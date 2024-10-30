@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ExoplayerYTCompose</string>
+    <string name="rewind_5_seconds">Rewind 5 seconds.</string>
+	<string name="play_pause">Play/Pause.</string>
+	<string name="forward_5_seconds">Forward 5 seconds.</string>
+	<string name="total_video_duration">Total video duration.</string>
+	<string name="enter_exit_fullscreen">Enter/Exit fullscreen.</string>
 </resources>
