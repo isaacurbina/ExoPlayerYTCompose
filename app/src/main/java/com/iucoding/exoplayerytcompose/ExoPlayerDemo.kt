@@ -1,4 +1,4 @@
-package com.iucoding.exoplayerytcompose.composables
+package com.iucoding.exoplayerytcompose
 
 import android.app.Activity
 import android.content.Context
