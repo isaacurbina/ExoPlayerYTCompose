@@ -33,7 +33,7 @@ fun CenterControls(
 			Image(
 				modifier = Modifier.fillMaxSize(),
 				contentScale = ContentScale.Crop,
-				painter = painterResource(id = R.drawable.rewind),
+				painter = painterResource(id = R.drawable.exo_styled_controls_simple_rewind),
 				contentDescription = "Replay 5 seconds"
 			)
 		}
@@ -44,15 +44,15 @@ fun CenterControls(
 				contentScale = ContentScale.Crop,
 				painter = when {
 					isVideoPlaying -> {
-						painterResource(id = R.drawable.pause)
+						painterResource(id = R.drawable.exo_styled_controls_pause)
 					}
 
 					isVideoPlaying.not() && playerState == STATE_ENDED -> {
-						painterResource(id = R.drawable.rewind)
+						painterResource(id = R.drawable.exo_styled_controls_simple_rewind)
 					}
 
 					else -> {
-						painterResource(id = R.drawable.play)
+						painterResource(id = R.drawable.exo_styled_controls_play)
 					}
 				},
 				contentDescription = "Play/Pause"
@@ -63,7 +63,7 @@ fun CenterControls(
 			Image(
 				modifier = Modifier.fillMaxSize(),
 				contentScale = ContentScale.Crop,
-				painter = painterResource(id = R.drawable.forward),
+				painter = painterResource(id = R.drawable.exo_styled_controls_simple_fastforward),
 				contentDescription = "Forward 10 seconds"
 			)
 		}
