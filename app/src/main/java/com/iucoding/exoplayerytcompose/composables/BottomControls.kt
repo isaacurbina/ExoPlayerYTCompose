@@ -86,7 +86,7 @@ fun BottomControls(
 			onClick = {}) {
 			Image(
 				contentScale = ContentScale.Crop,
-				painter = painterResource(id = R.drawable.fullscreen),
+				painter = painterResource(id = R.drawable.exo_styled_controls_fullscreen_enter),
 				contentDescription = "Enter/Exit fullscreen"
 			)
 		}
